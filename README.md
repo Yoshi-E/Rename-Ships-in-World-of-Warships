@@ -11,7 +11,7 @@ Place the binary in the same folder of the .mo file, or specify the location whe
 
 # Download
 
-Download can be found here: [DOWNLOAD](https://github.com/Yoshi-E/Rename-Ships-in-World-of-Warships/releases/download/1.0/wows_renameShips.rar)
+Download can be found here: [DOWNLOAD](https://github.com/Yoshi-E/Rename-Ships-in-World-of-Warships/releases/download/1.0/wows_renameShips.zip)
 
 # Notes
 The input is case sensetive, so be sure to type the correct names!
