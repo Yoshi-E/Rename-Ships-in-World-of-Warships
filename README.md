@@ -1,6 +1,6 @@
 # Rename Ships in World of Warships
 
-A simple tool that allows you to replace strings in a language files
+A simple tool that allows you to replace strings in language files
 
 With this you can turn your "Yamato" into a "Tomato"
 
