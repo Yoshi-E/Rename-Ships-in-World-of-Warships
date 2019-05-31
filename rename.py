@@ -14,8 +14,9 @@ for mo in mo_files:
         path = mo
 
 input("WARNING - Make a copy of your .mo file first. Press Enter to continue.")
-print()
+
 if(path == ""):
+    print()
     print("You need to locate your language file in your install folder.")
     print("The path looks something like this:")
     print("C:/Program Files/WOWS/res/texts/en/LC_MESSAGES/global.mo")
@@ -42,6 +43,7 @@ for line in mo_file:
         print("-------------------------------------------------------------")
     
 print("Replaced "+str(replaced)+" entries")
-print("Saving file...")
-mo_file.save(path)
+if(replaced>0):
+    print("Saving file...")
+    mo_file.save(path)
 print("Done!")
